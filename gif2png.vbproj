@@ -1,10 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>gif2png</RootNamespace>
     <TargetFramework>net5.0</TargetFramework>
     <Platforms>AnyCPU;x64</Platforms>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <Version>1.0.1</Version>
+    <Description>Split gif file with multi frame to single frame png files.</Description>
+    <Copyright>柿渋</Copyright>
+    <StartupObject>Sub Main</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
