@@ -10,6 +10,7 @@
     <Description>Split gif file with multi frame to single frame png files.</Description>
     <Copyright>柿渋</Copyright>
     <StartupObject>Sub Main</StartupObject>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
