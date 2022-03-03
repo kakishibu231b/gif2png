@@ -46,7 +46,7 @@ NORMAL_END:
 
             For ii As Integer = 1 To intFrameCount
                 imgInputImage.SelectActiveFrame(fdimInputImage, ii - 1)
-                Dim strOputputPath As String = System.IO.Path.Combine(strOputputDir, ii.ToString & ".png")
+                Dim strOputputPath As String = System.IO.Path.Combine(strOputputDir, strInputFileNameWithoutExtension + String.Format("{0:00}", ii) & ".png")
                 imgInputImage.Save(strOputputPath, System.Drawing.Imaging.ImageFormat.Png)
             Next
 
